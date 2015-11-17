@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 48269e3d43b334f0693bbcf9bb6bef23
+timeCreated: 1445303754
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bath_Door
+    100002: Bathroom_Door
+    100004: Bathroom_Door_Frame
+    100006: Bathroom_Door_Knobs
+    100008: Bathroom_Wall
+    100010: Bed
+    100012: Bed_Platform
+    100014: //RootNode
+    100016: Cabinet_Door1
+    100018: Cabinet_Door1 1
+    100020: Cabinet_Door2
+    100022: Cabinet_Door2 1
+    100024: Cabinet_Handle1
+    100026: Cabinet_Handle1 1
+    100028: Cabinet_Handle2
+    100030: Cabinet_Handle2 1
+    100032: Cloest_Drawer
+    100034: Closet_Door
+    100036: Closet_Handle1
+    100038: Closet_Handle2
+    100040: Closet_Pole
+    100042: Closet_Shelf
+    100044: Closet_Shelves
+    100046: Counter1
+    100048: Counter2
+    100050: Counter3
+    100052: Counter4
+    100054: Door_Knob1
+    100056: Door_Knob1 1
+    100058: Door_Knob2
+    100060: Door_Knob2 1
+    100062: Door_Pocket1
+    100064: Door_Pocket2
+    100066: Door_WIndow
+    100068: Entrance_Door
+    100070: Entrance_Door_Knobs
+    100072: entrance_steps
+    100074: Exterior_Light1
+    100076: Exterior_Light2
+    100078: Exterior_Light3
+    100080: Exterior_Lights
+    100082: Exterior_Planks
+    100084: Exterior_Railing
+    100086: Faucet_Knob1
+    100088: Faucet_Knob2
+    100090: Faucet_Pipe
+    100092: Faucet_Platform
+    100094: Fridge_Door
+    100096: Fridge_Shelf
+    100098: Fridge_Shelf1
+    100100: Front_Door
+    100102: Front_Door_Frame
+    100104: Ground
+    100106: Knob_Platform1
+    100108: Knob_Platform1 1
+    100110: Knob_Platform1 2
+    100112: Knob_Platform1 3
+    100114: Ladder_Frame
+    100116: Ladder_Step1
+    100118: Ladder_Step2
+    100120: Ladder_Step3
+    100122: Ladder_Step4
+    100124: Ladder_Step5
+    100126: Ladder_Step6
+    100128: Ladder_Steps
+    100130: Mattress
+    100132: Mini_Fridge
+    100134: Outdoor_Steps
+    100136: patio_steps
+    100138: pCube24
+    100140: pCube24 1
+    100142: pCube24 2
+    100144: pCube25
+    100146: pCube26
+    100148: pCube27
+    100150: pCube28
+    100152: pCube29
+    100154: pCube30
+    100156: pCube31
+    100158: pCube32
+    100160: pCube32 1
+    100162: pillar1
+    100164: pillar2
+    100166: pillar3
+    100168: pillar4
+    100170: pillar5
+    100172: pillar6
+    100174: Pillars
+    100176: Pillow1
+    100178: Pillow2
+    100180: Planks
+    100182: Planks1
+    100184: Planks2
+    100186: polySurface1
+    100188: polySurface1 1
+    100190: polySurface10
+    100192: polySurface11
+    100194: polySurface12
+    100196: polySurface13
+    100198: polySurface14
+    100200: polySurface15
+    100202: polySurface16
+    100204: polySurface17
+    100206: polySurface18
+    100208: polySurface19
+    100210: polySurface2
+    100212: polySurface2 1
+    100214: polySurface21
+    100216: polySurface22
+    100218: polySurface23
+    100220: polySurface24
+    100222: polySurface25
+    100224: polySurface26
+    100226: polySurface27
+    100228: polySurface28
+    100230: polySurface35
+    100232: polySurface36
+    100234: polySurface37
+    100236: polySurface38
+    100238: polySurface5
+    100240: polySurface6
+    100242: polySurface7
+    100244: polySurface8
+    100246: polySurface9
+    100248: Roof
+    100250: Roof1
+    100252: Roof2
+    100254: Rug1
+    100256: Sink1
+    100258: Sink_Drain
+    100260: Sink_Faucet
+    100262: step1
+    100264: step2
+    100266: step3
+    100268: step4
+    100270: step4 1
+    100272: step5
+    100274: step5 1
+    100276: Wall_Exterior
+    100278: Waste_Basket
+    100280: Window1
+    100282: Window2
+    100284: Window3
+    100286: Window4
+    100288: Window5
+    100290: Window6
+    100292: Windows
+    400000: Bath_Door
+    400002: Bathroom_Door
+    400004: Bathroom_Door_Frame
+    400006: Bathroom_Door_Knobs
+    400008: Bathroom_Wall
+    400010: Bed
+    400012: Bed_Platform
+    400014: //RootNode
+    400016: Cabinet_Door1
+    400018: Cabinet_Door1 1
+    400020: Cabinet_Door2
+    400022: Cabinet_Door2 1
+    400024: Cabinet_Handle1
+    400026: Cabinet_Handle1 1
+    400028: Cabinet_Handle2
+    400030: Cabinet_Handle2 1
+    400032: Cloest_Drawer
+    400034: Closet_Door
+    400036: Closet_Handle1
+    400038: Closet_Handle2
+    400040: Closet_Pole
+    400042: Closet_Shelf
+    400044: Closet_Shelves
+    400046: Counter1
+    400048: Counter2
+    400050: Counter3
+    400052: Counter4
+    400054: Door_Knob1
+    400056: Door_Knob1 1
+    400058: Door_Knob2
+    400060: Door_Knob2 1
+    400062: Door_Pocket1
+    400064: Door_Pocket2
+    400066: Door_WIndow
+    400068: Entrance_Door
+    400070: Entrance_Door_Knobs
+    400072: entrance_steps
+    400074: Exterior_Light1
+    400076: Exterior_Light2
+    400078: Exterior_Light3
+    400080: Exterior_Lights
+    400082: Exterior_Planks
+    400084: Exterior_Railing
+    400086: Faucet_Knob1
+    400088: Faucet_Knob2
+    400090: Faucet_Pipe
+    400092: Faucet_Platform
+    400094: Fridge_Door
+    400096: Fridge_Shelf
+    400098: Fridge_Shelf1
+    400100: Front_Door
+    400102: Front_Door_Frame
+    400104: Ground
+    400106: Knob_Platform1
+    400108: Knob_Platform1 1
+    400110: Knob_Platform1 2
+    400112: Knob_Platform1 3
+    400114: Ladder_Frame
+    400116: Ladder_Step1
+    400118: Ladder_Step2
+    400120: Ladder_Step3
+    400122: Ladder_Step4
+    400124: Ladder_Step5
+    400126: Ladder_Step6
+    400128: Ladder_Steps
+    400130: Mattress
+    400132: Mini_Fridge
+    400134: Outdoor_Steps
+    400136: patio_steps
+    400138: pCube24
+    400140: pCube24 1
+    400142: pCube24 2
+    400144: pCube25
+    400146: pCube26
+    400148: pCube27
+    400150: pCube28
+    400152: pCube29
+    400154: pCube30
+    400156: pCube31
+    400158: pCube32
+    400160: pCube32 1
+    400162: pillar1
+    400164: pillar2
+    400166: pillar3
+    400168: pillar4
+    400170: pillar5
+    400172: pillar6
+    400174: Pillars
+    400176: Pillow1
+    400178: Pillow2
+    400180: Planks
+    400182: Planks1
+    400184: Planks2
+    400186: polySurface1
+    400188: polySurface1 1
+    400190: polySurface10
+    400192: polySurface11
+    400194: polySurface12
+    400196: polySurface13
+    400198: polySurface14
+    400200: polySurface15
+    400202: polySurface16
+    400204: polySurface17
+    400206: polySurface18
+    400208: polySurface19
+    400210: polySurface2
+    400212: polySurface2 1
+    400214: polySurface21
+    400216: polySurface22
+    400218: polySurface23
+    400220: polySurface24
+    400222: polySurface25
+    400224: polySurface26
+    400226: polySurface27
+    400228: polySurface28
+    400230: polySurface35
+    400232: polySurface36
+    400234: polySurface37
+    400236: polySurface38
+    400238: polySurface5
+    400240: polySurface6
+    400242: polySurface7
+    400244: polySurface8
+    400246: polySurface9
+    400248: Roof
+    400250: Roof1
+    400252: Roof2
+    400254: Rug1
+    400256: Sink1
+    400258: Sink_Drain
+    400260: Sink_Faucet
+    400262: step1
+    400264: step2
+    400266: step3
+    400268: step4
+    400270: step4 1
+    400272: step5
+    400274: step5 1
+    400276: Wall_Exterior
+    400278: Waste_Basket
+    400280: Window1
+    400282: Window2
+    400284: Window3
+    400286: Window4
+    400288: Window5
+    400290: Window6
+    400292: Windows
+    2300000: Bath_Door
+    2300002: Bathroom_Door_Frame
+    2300004: Bathroom_Wall
+    2300006: Bed_Platform
+    2300008: Cabinet_Door1
+    2300010: Cabinet_Door1 1
+    2300012: Cabinet_Door2
+    2300014: Cabinet_Door2 1
+    2300016: Cabinet_Handle1
+    2300018: Cabinet_Handle1 1
+    2300020: Cabinet_Handle2
+    2300022: Cabinet_Handle2 1
+    2300024: Cloest_Drawer
+    2300026: Closet_Door
+    2300028: Closet_Handle1
+    2300030: Closet_Handle2
+    2300032: Closet_Pole
+    2300034: Closet_Shelf
+    2300036: Closet_Shelves
+    2300038: Counter1
+    2300040: Counter3
+    2300042: Counter4
+    2300044: Door_Knob1
+    2300046: Door_Knob1 1
+    2300048: Door_Knob2
+    2300050: Door_Knob2 1
+    2300052: Door_Pocket1
+    2300054: Door_Pocket2
+    2300056: Door_WIndow
+    2300058: Exterior_Light1
+    2300060: Exterior_Light2
+    2300062: Exterior_Light3
+    2300064: Faucet_Knob1
+    2300066: Faucet_Knob2
+    2300068: Faucet_Pipe
+    2300070: Faucet_Platform
+    2300072: Fridge_Door
+    2300074: Fridge_Shelf
+    2300076: Fridge_Shelf1
+    2300078: Front_Door
+    2300080: Front_Door_Frame
+    2300082: Ground
+    2300084: Knob_Platform1
+    2300086: Knob_Platform1 1
+    2300088: Knob_Platform1 2
+    2300090: Knob_Platform1 3
+    2300092: Ladder_Frame
+    2300094: Ladder_Step1
+    2300096: Ladder_Step2
+    2300098: Ladder_Step3
+    2300100: Ladder_Step4
+    2300102: Ladder_Step5
+    2300104: Ladder_Step6
+    2300106: Mattress
+    2300108: Mini_Fridge
+    2300110: pCube24
+    2300112: pCube24 1
+    2300114: pCube24 2
+    2300116: pCube26
+    2300118: pCube27
+    2300120: pCube28
+    2300122: pCube29
+    2300124: pCube30
+    2300126: pCube31
+    2300128: pCube32
+    2300130: pCube32 1
+    2300132: pillar1
+    2300134: pillar2
+    2300136: pillar3
+    2300138: pillar4
+    2300140: pillar5
+    2300142: pillar6
+    2300144: Pillow1
+    2300146: Pillow2
+    2300148: polySurface1
+    2300150: polySurface1 1
+    2300152: polySurface10
+    2300154: polySurface11
+    2300156: polySurface12
+    2300158: polySurface13
+    2300160: polySurface14
+    2300162: polySurface15
+    2300164: polySurface16
+    2300166: polySurface17
+    2300168: polySurface18
+    2300170: polySurface19
+    2300172: polySurface2
+    2300174: polySurface2 1
+    2300176: polySurface21
+    2300178: polySurface22
+    2300180: polySurface23
+    2300182: polySurface24
+    2300184: polySurface25
+    2300186: polySurface26
+    2300188: polySurface27
+    2300190: polySurface28
+    2300192: polySurface35
+    2300194: polySurface36
+    2300196: polySurface37
+    2300198: polySurface38
+    2300200: polySurface5
+    2300202: polySurface6
+    2300204: polySurface7
+    2300206: polySurface8
+    2300208: polySurface9
+    2300210: Roof1
+    2300212: Roof2
+    2300214: Rug1
+    2300216: Sink1
+    2300218: Sink_Drain
+    2300220: step1
+    2300222: step2
+    2300224: step3
+    2300226: step4
+    2300228: step4 1
+    2300230: step5
+    2300232: step5 1
+    2300234: Wall_Exterior
+    2300236: Waste_Basket
+    2300238: Window1
+    2300240: Window2
+    2300242: Window3
+    2300244: Window4
+    2300246: Window5
+    2300248: Window6
+    3300000: Bath_Door
+    3300002: Bathroom_Door_Frame
+    3300004: Bathroom_Wall
+    3300006: Bed_Platform
+    3300008: Cabinet_Door1
+    3300010: Cabinet_Door1 1
+    3300012: Cabinet_Door2
+    3300014: Cabinet_Door2 1
+    3300016: Cabinet_Handle1
+    3300018: Cabinet_Handle1 1
+    3300020: Cabinet_Handle2
+    3300022: Cabinet_Handle2 1
+    3300024: Cloest_Drawer
+    3300026: Closet_Door
+    3300028: Closet_Handle1
+    3300030: Closet_Handle2
+    3300032: Closet_Pole
+    3300034: Closet_Shelf
+    3300036: Closet_Shelves
+    3300038: Counter1
+    3300040: Counter3
+    3300042: Counter4
+    3300044: Door_Knob1
+    3300046: Door_Knob1 1
+    3300048: Door_Knob2
+    3300050: Door_Knob2 1
+    3300052: Door_Pocket1
+    3300054: Door_Pocket2
+    3300056: Door_WIndow
+    3300058: Exterior_Light1
+    3300060: Exterior_Light2
+    3300062: Exterior_Light3
+    3300064: Faucet_Knob1
+    3300066: Faucet_Knob2
+    3300068: Faucet_Pipe
+    3300070: Faucet_Platform
+    3300072: Fridge_Door
+    3300074: Fridge_Shelf
+    3300076: Fridge_Shelf1
+    3300078: Front_Door
+    3300080: Front_Door_Frame
+    3300082: Ground
+    3300084: Knob_Platform1
+    3300086: Knob_Platform1 1
+    3300088: Knob_Platform1 2
+    3300090: Knob_Platform1 3
+    3300092: Ladder_Frame
+    3300094: Ladder_Step1
+    3300096: Ladder_Step2
+    3300098: Ladder_Step3
+    3300100: Ladder_Step4
+    3300102: Ladder_Step5
+    3300104: Ladder_Step6
+    3300106: Mattress
+    3300108: Mini_Fridge
+    3300110: pCube24
+    3300112: pCube24 1
+    3300114: pCube24 2
+    3300116: pCube26
+    3300118: pCube27
+    3300120: pCube28
+    3300122: pCube29
+    3300124: pCube30
+    3300126: pCube31
+    3300128: pCube32
+    3300130: pCube32 1
+    3300132: pillar1
+    3300134: pillar2
+    3300136: pillar3
+    3300138: pillar4
+    3300140: pillar5
+    3300142: pillar6
+    3300144: Pillow1
+    3300146: Pillow2
+    3300148: polySurface1
+    3300150: polySurface1 1
+    3300152: polySurface10
+    3300154: polySurface11
+    3300156: polySurface12
+    3300158: polySurface13
+    3300160: polySurface14
+    3300162: polySurface15
+    3300164: polySurface16
+    3300166: polySurface17
+    3300168: polySurface18
+    3300170: polySurface19
+    3300172: polySurface2
+    3300174: polySurface2 1
+    3300176: polySurface21
+    3300178: polySurface22
+    3300180: polySurface23
+    3300182: polySurface24
+    3300184: polySurface25
+    3300186: polySurface26
+    3300188: polySurface27
+    3300190: polySurface28
+    3300192: polySurface35
+    3300194: polySurface36
+    3300196: polySurface37
+    3300198: polySurface38
+    3300200: polySurface5
+    3300202: polySurface6
+    3300204: polySurface7
+    3300206: polySurface8
+    3300208: polySurface9
+    3300210: Roof1
+    3300212: Roof2
+    3300214: Rug1
+    3300216: Sink1
+    3300218: Sink_Drain
+    3300220: step1
+    3300222: step2
+    3300224: step3
+    3300226: step4
+    3300228: step4 1
+    3300230: step5
+    3300232: step5 1
+    3300234: Wall_Exterior
+    3300236: Waste_Basket
+    3300238: Window1
+    3300240: Window2
+    3300242: Window3
+    3300244: Window4
+    3300246: Window5
+    3300248: Window6
+    4300000: polySurface1
+    4300002: polySurface2
+    4300004: step1
+    4300006: step2
+    4300008: step3
+    4300010: step4
+    4300012: step5
+    4300014: polySurface1
+    4300016: polySurface2
+    4300018: step4
+    4300020: step5
+    4300022: pillar3
+    4300024: pillar4
+    4300026: pillar5
+    4300028: pillar2
+    4300030: pillar1
+    4300032: pillar6
+    4300034: Ground
+    4300036: Wall_Exterior
+    4300038: pCube24
+    4300040: polySurface12
+    4300042: polySurface13
+    4300044: polySurface14
+    4300046: polySurface15
+    4300048: polySurface16
+    4300050: polySurface17
+    4300052: polySurface18
+    4300054: polySurface19
+    4300056: polySurface21
+    4300058: polySurface22
+    4300060: polySurface23
+    4300062: polySurface24
+    4300064: polySurface25
+    4300066: polySurface26
+    4300068: polySurface27
+    4300070: polySurface35
+    4300072: polySurface36
+    4300074: pCube24
+    4300076: pCube26
+    4300078: pCube27
+    4300080: pCube28
+    4300082: pCube29
+    4300084: pCube30
+    4300086: pCube31
+    4300088: pCube24
+    4300090: polySurface28
+    4300092: polySurface37
+    4300094: Window1
+    4300096: Window2
+    4300098: Window3
+    4300100: Window4
+    4300102: Window5
+    4300104: Exterior_Light1
+    4300106: Exterior_Light2
+    4300108: Exterior_Light3
+    4300110: Roof1
+    4300112: Roof2
+    4300114: Window6
+    4300116: Bed_Platform
+    4300118: Ladder_Frame
+    4300120: Ladder_Step6
+    4300122: Ladder_Step5
+    4300124: Ladder_Step4
+    4300126: Ladder_Step3
+    4300128: Ladder_Step2
+    4300130: Ladder_Step1
+    4300132: Closet_Shelves
+    4300134: Closet_Shelf
+    4300136: Closet_Pole
+    4300138: Closet_Door
+    4300140: Closet_Handle1
+    4300142: Cloest_Drawer
+    4300144: Closet_Handle2
+    4300146: Bathroom_Wall
+    4300148: Mattress
+    4300150: Pillow1
+    4300152: Pillow2
+    4300154: Rug1
+    4300156: polySurface5
+    4300158: polySurface6
+    4300160: polySurface7
+    4300162: polySurface8
+    4300164: polySurface9
+    4300166: polySurface10
+    4300168: polySurface11
+    4300170: polySurface38
+    4300172: Mini_Fridge
+    4300174: Fridge_Door
+    4300176: Door_Pocket1
+    4300178: Door_Pocket2
+    4300180: Fridge_Shelf
+    4300182: Fridge_Shelf1
+    4300184: Counter1
+    4300186: pCube32
+    4300188: Cabinet_Door1
+    4300190: Cabinet_Handle1
+    4300192: Cabinet_Door2
+    4300194: Cabinet_Handle2
+    4300196: Sink1
+    4300198: Sink_Drain
+    4300200: Faucet_Platform
+    4300202: Faucet_Pipe
+    4300204: Faucet_Knob2
+    4300206: Faucet_Knob1
+    4300208: Counter4
+    4300210: Counter3
+    4300212: pCube32
+    4300214: Cabinet_Door1
+    4300216: Cabinet_Handle1
+    4300218: Cabinet_Door2
+    4300220: Cabinet_Handle2
+    4300222: Waste_Basket
+    4300224: Bath_Door
+    4300226: Door_Knob1
+    4300228: Knob_Platform1
+    4300230: Door_Knob2
+    4300232: Knob_Platform1
+    4300234: Bathroom_Door_Frame
+    4300236: Front_Door
+    4300238: Door_Knob1
+    4300240: Knob_Platform1
+    4300242: Door_Knob2
+    4300244: Knob_Platform1
+    4300246: Door_WIndow
+    4300248: Front_Door_Frame
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

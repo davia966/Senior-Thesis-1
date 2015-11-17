@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 639af5405fcf74e3b97326d67663a33a
+timeCreated: 1445963189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Door_Knob1
+    100004: Door_Knob2
+    100006: Door_WIndow
+    100008: Entrance_Door_Knobs
+    100010: Front_Door1
+    100012: Front_Door2
+    100014: Knob_Platform1
+    100016: Knob_Platform1 1
+    100018: transform19
+    100020: transform20
+    100022: transform21
+    100024: transform22
+    100026: transform23
+    100028: transform24
+    400000: //RootNode
+    400002: Door_Knob1
+    400004: Door_Knob2
+    400006: Door_WIndow
+    400008: Entrance_Door_Knobs
+    400010: Front_Door1
+    400012: Front_Door2
+    400014: Knob_Platform1
+    400016: Knob_Platform1 1
+    400018: transform19
+    400020: transform20
+    400022: transform21
+    400024: transform22
+    400026: transform23
+    400028: transform24
+    2300000: Front_Door2
+    3300000: Front_Door2
+    4300000: Front_Door2
+    7400000: Front Door Open
+    7400002: Front Door Close
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Front Door Open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Front_Door1
+        weight: 1
+      - path: Front_Door1/Door_WIndow
+        weight: 1
+      - path: Front_Door1/Door_WIndow/transform19
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/Knob_Platform1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/Knob_Platform1/transform22
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/transform23
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/Knob_Platform1 1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/Knob_Platform1 1/transform20
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/transform21
+        weight: 1
+      - path: Front_Door1/transform24
+        weight: 1
+      - path: Front_Door2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Front Door Close
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Front_Door1
+        weight: 1
+      - path: Front_Door1/Door_WIndow
+        weight: 1
+      - path: Front_Door1/Door_WIndow/transform19
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/Knob_Platform1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/Knob_Platform1/transform22
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob1/transform23
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/Knob_Platform1 1
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/Knob_Platform1 1/transform20
+        weight: 1
+      - path: Front_Door1/Entrance_Door_Knobs/Door_Knob2/transform21
+        weight: 1
+      - path: Front_Door1/transform24
+        weight: 1
+      - path: Front_Door2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
