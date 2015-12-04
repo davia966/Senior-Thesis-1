@@ -8,6 +8,7 @@ public class PickupObject : MonoBehaviour {
 	GameObject carriedObject;
 	public float distance;
 	public float smooth;
+	public float rayDistance = 5f;
 
 	// Use this for initialization
 	void Start () {
@@ -36,7 +37,7 @@ public class PickupObject : MonoBehaviour {
 			Ray rayOrigin = Camera.main.ScreenPointToRay(new Vector3 (x, y, 0));
 			RaycastHit hit;
 
-			if (Physics.Raycast(rayOrigin, out hit)){
+			if (Physics.Raycast(rayOrigin, out hit, rayDistance)){
 				Pickupable p = hit.collider.GetComponent<Pickupable>();
 				if (p != null){
 					carrying = true;
