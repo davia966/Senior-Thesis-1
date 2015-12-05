@@ -18,7 +18,7 @@ public class ObjectInteract : MonoBehaviour {
 	
 	}
 
-	void OnLook (){
+	void Interact (){
 		Destroy(this.gameObject);
 		}
 	}

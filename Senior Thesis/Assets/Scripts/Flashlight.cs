@@ -14,7 +14,7 @@ public class Flashlight : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Alpha1) && (GameObject.Find("Flashlight1").GetComponent<FlashLightVisibility>().haveLight)){
+		if (Input.GetKeyDown(KeyCode.Alpha1) && (GameObject.Find("Flashlight1"))){
 			if (GetComponent<Light>().enabled == false){
 				GetComponent<Light>().enabled = true;
 			} else {

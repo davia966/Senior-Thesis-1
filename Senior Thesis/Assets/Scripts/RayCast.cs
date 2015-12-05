@@ -24,7 +24,7 @@ public class RayCast : MonoBehaviour {
 	//if left mouse button is clicked
 	//create a ray cast that originates from the center of the screen
 
-		if(Input.GetMouseButtonDown(0)){
+		//if(Input.GetMouseButtonDown(0)){
 			//Ray rayOrigin = Camera.main.ScreenPointToRay(Input.mousePosition); //draws the ray
 			Ray rayOrigin = Camera.main.ScreenPointToRay(new Vector3(x, y, 0));
 			RaycastHit hitInfo; //records the ray data
@@ -33,12 +33,12 @@ public class RayCast : MonoBehaviour {
 				Debug.Log ("You are casting a ray!");
 				Debug.DrawLine(rayOrigin.direction, hitInfo.point);
 
-				if(hitInfo.rigidbody != null){
+				if(hitInfo.collider.GetComponent<Pickupable>() != null){
 					//hitInfo.rigidbody.AddForceAtPosition(rayOrigin.direction * power, hitInfo.point);
 					Debug.Log("This is a clickable object");
 					hitInfo.transform.SendMessage (functionToCallOnLook, SendMessageOptions.DontRequireReceiver);
-				}
+				} 
 			}
 		}
 	}
-}
+//}

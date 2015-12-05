@@ -18,7 +18,7 @@ public class NotebookVisibility : MonoBehaviour {
 
 	}
 
-	void OnLook () {
+	void Interact () {
 		isShowing = !isShowing;
 		bookButton.SetActive(isShowing);
 			

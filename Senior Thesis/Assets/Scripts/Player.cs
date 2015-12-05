@@ -5,6 +5,7 @@ public class Player : MonoBehaviour {
 
 	public float speed;
 	public Inventory inventory;
+	GameObject itemAdd;
 
 	// Use this for initialization
 	void Start () {
@@ -24,10 +25,16 @@ public class Player : MonoBehaviour {
 		transform.Translate(new Vector3 (Input.GetAxis("Horizontal") * translation,0,Input.GetAxis("Vertical") * translation));
 	}
 
-	private void OnTriggerEnter(Collider other){
+	private void OnTriggerEnter (Collider other){
+//		if (other.tag == "Item"){
+//			if (Input.GetMouseButtonDown(3)){
+//				inventory.AddItem(other.GetComponent<Item>());
+//				Debug.Log ("ROCKS!!!!");
+//			}
+//		}
 		if (other.tag == "Item"){
 			inventory.AddItem(other.GetComponent<Item>());
-			Debug.Log ("ROCKS!!!!");
+			Debug.Log ("Rock it bitch!");
 		}
 	}
 }

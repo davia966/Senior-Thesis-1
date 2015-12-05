@@ -3,12 +3,16 @@ using System.Collections;
 
 public class PickupObject : MonoBehaviour {
 
+	public string functionToCallOnLook = "Interact";
 	GameObject mainCamera;
 	bool carrying;
 	GameObject carriedObject;
+	GameObject throwableObject;
 	public float distance;
 	public float smooth;
 	public float rayDistance = 5f;
+	public Inventory inventory;
+	public float speed = 1000f;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +23,11 @@ public class PickupObject : MonoBehaviour {
 	void Update () {
 		if (carrying){
 			carry(carriedObject);
-			checkDrop ();
+			if (Input.GetKeyDown(KeyCode.Q)){
+				throwObject();
+				Debug.Log ("THREWW!");
+			}
+			checkDrop();
 		}else{
 			pickup();
 		}
@@ -39,10 +47,14 @@ public class PickupObject : MonoBehaviour {
 
 			if (Physics.Raycast(rayOrigin, out hit, rayDistance)){
 				Pickupable p = hit.collider.GetComponent<Pickupable>();
+				if (hit.rigidbody != null){
+					hit.transform.SendMessage (functionToCallOnLook, SendMessageOptions.DontRequireReceiver);
+				}
 				if (p != null){
 					carrying = true;
 					carriedObject = p.gameObject;
 					p.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+					p.gameObject.GetComponent<BoxCollider>().isTrigger = true;
 				}
 			}
 		}
@@ -57,6 +69,13 @@ public class PickupObject : MonoBehaviour {
 	void dropObject(){
 		carrying = false;
 		carriedObject.GetComponent<Rigidbody>().isKinematic = false;
+		carriedObject.GetComponent<BoxCollider>().isTrigger = false;
 		carriedObject = null;
+	}
+
+	void throwObject(){
+		throwableObject = GameObject.FindWithTag ("Item");
+		dropObject();
+		throwableObject.GetComponent<Rigidbody>().AddForce(transform.forward * speed);
 	}
 }

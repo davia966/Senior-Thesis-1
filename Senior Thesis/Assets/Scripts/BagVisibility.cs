@@ -13,7 +13,7 @@ public class BagVisibility : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void OnLook () {
+	void Interact () {
 		isShowing = !isShowing;
 		bagButton.SetActive(isShowing);
 

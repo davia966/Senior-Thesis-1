@@ -17,7 +17,7 @@ public class FlashLightVisibility : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void OnLook () {
+	void Interact () {
 		isShowing = !isShowing;
 		lightButton.SetActive(isShowing);
 			
