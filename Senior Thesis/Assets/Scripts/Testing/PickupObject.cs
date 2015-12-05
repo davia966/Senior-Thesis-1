@@ -6,6 +6,7 @@ public class PickupObject : MonoBehaviour {
 	public string functionToCallOnLook = "Interact";
 	GameObject mainCamera;
 	bool carrying;
+	bool haveABox;
 	GameObject carriedObject;
 	GameObject throwableObject;
 	public float distance;
@@ -13,6 +14,9 @@ public class PickupObject : MonoBehaviour {
 	public float rayDistance = 5f;
 	public Inventory inventory;
 	public float speed = 1000f;
+
+	float x = Screen.width / 2;
+	float y = Screen.height / 2;
 
 	// Use this for initialization
 	void Start () {
@@ -39,8 +43,8 @@ public class PickupObject : MonoBehaviour {
 
 	void pickup(){
 		if (Input.GetKeyDown(KeyCode.E)){
-			int x = Screen.width / 2;
-			int y = Screen.height / 2;
+			//int x = Screen.width / 2;
+			//int y = Screen.height / 2;
 
 			Ray rayOrigin = Camera.main.ScreenPointToRay(new Vector3 (x, y, 0));
 			RaycastHit hit;
