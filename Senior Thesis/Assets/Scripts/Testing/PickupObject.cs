@@ -74,7 +74,7 @@ public class PickupObject : MonoBehaviour {
 	}
 
 	void throwObject(){
-		throwableObject = GameObject.FindWithTag ("Item");
+		throwableObject = carriedObject;
 		dropObject();
 		throwableObject.GetComponent<Rigidbody>().AddForce(transform.forward * speed);
 	}

@@ -15,14 +15,16 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		HandleMovement();
+		crouch();
 	
 	}
 
-	private void HandleMovement(){
-		float translation = speed * Time.deltaTime;
-
-		transform.Translate(new Vector3 (Input.GetAxis("Horizontal") * translation,0,Input.GetAxis("Vertical") * translation));
+	private void crouch(){
+		if (Input.GetKeyDown(KeyCode.C)){
+			GetComponent<CharacterController>().height = 0.7f;
+		} else if (Input.GetKeyUp(KeyCode.C)){
+			GetComponent<CharacterController>().height = 1.8f;
+		}
 	}
 
 	private void OnTriggerEnter (Collider other){
