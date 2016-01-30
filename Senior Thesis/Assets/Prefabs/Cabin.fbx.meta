@@ -674,6 +674,131 @@ ModelImporter:
     4300244: Knob_Platform1
     4300246: Door_WIndow
     4300248: Front_Door_Frame
+    6400000: Bath_Door
+    6400002: Bathroom_Door_Frame
+    6400004: Bathroom_Wall
+    6400006: Bed_Platform
+    6400008: Cabinet_Door1
+    6400010: Cabinet_Door1 1
+    6400012: Cabinet_Door2
+    6400014: Cabinet_Door2 1
+    6400016: Cabinet_Handle1
+    6400018: Cabinet_Handle1 1
+    6400020: Cabinet_Handle2
+    6400022: Cabinet_Handle2 1
+    6400024: Cloest_Drawer
+    6400026: Closet_Door
+    6400028: Closet_Handle1
+    6400030: Closet_Handle2
+    6400032: Closet_Pole
+    6400034: Closet_Shelf
+    6400036: Closet_Shelves
+    6400038: Counter1
+    6400040: Counter3
+    6400042: Counter4
+    6400044: Door_Knob1
+    6400046: Door_Knob1 1
+    6400048: Door_Knob2
+    6400050: Door_Knob2 1
+    6400052: Door_Pocket1
+    6400054: Door_Pocket2
+    6400056: Door_WIndow
+    6400058: Exterior_Light1
+    6400060: Exterior_Light2
+    6400062: Exterior_Light3
+    6400064: Faucet_Knob1
+    6400066: Faucet_Knob2
+    6400068: Faucet_Pipe
+    6400070: Faucet_Platform
+    6400072: Fridge_Door
+    6400074: Fridge_Shelf
+    6400076: Fridge_Shelf1
+    6400078: Front_Door
+    6400080: Front_Door_Frame
+    6400082: Ground
+    6400084: Knob_Platform1
+    6400086: Knob_Platform1 1
+    6400088: Knob_Platform1 2
+    6400090: Knob_Platform1 3
+    6400092: Ladder_Frame
+    6400094: Ladder_Step1
+    6400096: Ladder_Step2
+    6400098: Ladder_Step3
+    6400100: Ladder_Step4
+    6400102: Ladder_Step5
+    6400104: Ladder_Step6
+    6400106: Mattress
+    6400108: Mini_Fridge
+    6400110: pCube24
+    6400112: pCube24 1
+    6400114: pCube24 2
+    6400116: pCube26
+    6400118: pCube27
+    6400120: pCube28
+    6400122: pCube29
+    6400124: pCube30
+    6400126: pCube31
+    6400128: pCube32
+    6400130: pCube32 1
+    6400132: pillar1
+    6400134: pillar2
+    6400136: pillar3
+    6400138: pillar4
+    6400140: pillar5
+    6400142: pillar6
+    6400144: Pillow1
+    6400146: Pillow2
+    6400148: polySurface1
+    6400150: polySurface1 1
+    6400152: polySurface10
+    6400154: polySurface11
+    6400156: polySurface12
+    6400158: polySurface13
+    6400160: polySurface14
+    6400162: polySurface15
+    6400164: polySurface16
+    6400166: polySurface17
+    6400168: polySurface18
+    6400170: polySurface19
+    6400172: polySurface2
+    6400174: polySurface2 1
+    6400176: polySurface21
+    6400178: polySurface22
+    6400180: polySurface23
+    6400182: polySurface24
+    6400184: polySurface25
+    6400186: polySurface26
+    6400188: polySurface27
+    6400190: polySurface28
+    6400192: polySurface35
+    6400194: polySurface36
+    6400196: polySurface37
+    6400198: polySurface38
+    6400200: polySurface5
+    6400202: polySurface6
+    6400204: polySurface7
+    6400206: polySurface8
+    6400208: polySurface9
+    6400210: Roof1
+    6400212: Roof2
+    6400214: Rug1
+    6400216: Sink1
+    6400218: Sink_Drain
+    6400220: step1
+    6400222: step2
+    6400224: step3
+    6400226: step4
+    6400228: step4 1
+    6400230: step5
+    6400232: step5 1
+    6400234: Wall_Exterior
+    6400236: Waste_Basket
+    6400238: Window1
+    6400240: Window2
+    6400242: Window3
+    6400244: Window4
+    6400246: Window5
+    6400248: Window6
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -700,7 +825,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
